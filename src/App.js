@@ -1,24 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import GGEditor, { Flow, EditableLabel, RegisterNode } from 'gg-editor';
+import { NodePanel } from './Panel';
+const data = {
+  nodes: [
+    {
+      id: '0',
+      label: 'Node',
+      x: 55,
+      y: 55,
+    },
+    {
+      id: '1',
+      label: 'Node',
+      x: 55,
+      y: 255,
+    },
+  ],
+  edges: [
+    {
+      label: 'Label',
+      source: '0',
+      target: '1',
+    },
+  ],
+};
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GGEditor>
+      <div className="panel">
+        <NodePanel/>
+      </div>
+        <Flow data={data} className="flow-wrapper" />
+        <EditableLabel />
+      </GGEditor>
     </div>
   );
 }
