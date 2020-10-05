@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ggeditor-example/static/css/main.aa5742fb.chunk.css",
-    "main.js": "/ggeditor-example/static/js/main.a2f26627.chunk.js",
-    "main.js.map": "/ggeditor-example/static/js/main.a2f26627.chunk.js.map",
+    "main.js": "/ggeditor-example/static/js/main.fb624288.chunk.js",
+    "main.js.map": "/ggeditor-example/static/js/main.fb624288.chunk.js.map",
     "runtime-main.js": "/ggeditor-example/static/js/runtime-main.48e02546.js",
     "runtime-main.js.map": "/ggeditor-example/static/js/runtime-main.48e02546.js.map",
-    "static/js/2.c75c029c.chunk.js": "/ggeditor-example/static/js/2.c75c029c.chunk.js",
-    "static/js/2.c75c029c.chunk.js.map": "/ggeditor-example/static/js/2.c75c029c.chunk.js.map",
+    "static/js/2.63884ab8.chunk.js": "/ggeditor-example/static/js/2.63884ab8.chunk.js",
+    "static/js/2.63884ab8.chunk.js.map": "/ggeditor-example/static/js/2.63884ab8.chunk.js.map",
     "index.html": "/ggeditor-example/index.html",
-    "precache-manifest.f52ec7688e5f25068dd491363128da60.js": "/ggeditor-example/precache-manifest.f52ec7688e5f25068dd491363128da60.js",
+    "precache-manifest.50c3b9b3cd7c23d168714dcc26cba026.js": "/ggeditor-example/precache-manifest.50c3b9b3cd7c23d168714dcc26cba026.js",
     "service-worker.js": "/ggeditor-example/service-worker.js",
     "static/css/main.aa5742fb.chunk.css.map": "/ggeditor-example/static/css/main.aa5742fb.chunk.css.map",
-    "static/js/2.c75c029c.chunk.js.LICENSE.txt": "/ggeditor-example/static/js/2.c75c029c.chunk.js.LICENSE.txt"
+    "static/js/2.63884ab8.chunk.js.LICENSE.txt": "/ggeditor-example/static/js/2.63884ab8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.48e02546.js",
-    "static/js/2.c75c029c.chunk.js",
+    "static/js/2.63884ab8.chunk.js",
     "static/css/main.aa5742fb.chunk.css",
-    "static/js/main.a2f26627.chunk.js"
+    "static/js/main.fb624288.chunk.js"
   ]
 }
