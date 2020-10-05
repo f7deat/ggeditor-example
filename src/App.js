@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import GGEditor, { Flow, EditableLabel, RegisterNode } from 'gg-editor';
+import GGEditor, { Flow, EditableLabel } from 'gg-editor';
 import { NodePanel } from './Panel';
+import CustomNode from './CustomNode';
 const data = {
   nodes: [
     {
@@ -34,6 +35,7 @@ function App() {
       </div>
         <Flow data={data} className="flow-wrapper" />
         <EditableLabel />
+        <CustomNode/>
       </GGEditor>
     </div>
   );
