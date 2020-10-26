@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6620c96a64e474185f8b92438de1d6e",
+    "revision": "990b7062822056e772f234a220e03d3c",
     "url": "/ggeditor-example/index.html"
   },
   {
-    "revision": "02c27702a15992b98aa4",
-    "url": "/ggeditor-example/static/css/main.aa5742fb.chunk.css"
+    "revision": "fd7291fdc4d44e19a880",
+    "url": "/ggeditor-example/static/css/main.2acd387b.chunk.css"
   },
   {
     "revision": "0acc40556a40f80e1639",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ggeditor-example/static/js/2.63884ab8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02c27702a15992b98aa4",
-    "url": "/ggeditor-example/static/js/main.fb624288.chunk.js"
+    "revision": "fd7291fdc4d44e19a880",
+    "url": "/ggeditor-example/static/js/main.fd742dd0.chunk.js"
   },
   {
     "revision": "d62915dcf5816099aea4",
