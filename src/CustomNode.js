@@ -7,7 +7,7 @@ class CustomNode extends React.Component {
             <RegisterNode name="entry-node" config={{
                 getCustomConfig(model) {
                     return {
-                        size: [200, 100],
+                        size: [300, 120],
                         wrapperStyle: {
                             fill: '#09123e',
                         },
