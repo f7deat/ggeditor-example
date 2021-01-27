@@ -3,6 +3,8 @@ import './App.css';
 import GGEditor, { Flow, EditableLabel } from 'gg-editor';
 import { NodePanel } from './Panel';
 import CustomNode from './CustomNode';
+import Tool from './tools/Tool';
+
 const data = {
   nodes: [
     {
@@ -28,16 +30,19 @@ const data = {
 };
 function App() {
   return (
-    <div className="App">
-      <GGEditor>
-      <div className="panel">
-        <NodePanel/>
+    <GGEditor className="h-full flex">
+      <div className="flex-grow">
+        <Tool />
+        <div style={{height: 'calc(100% - 48px)'}}>
+          <Flow data={data} className="bg-gray-100 h-full" />
+          <EditableLabel />
+          <CustomNode />
+        </div>
       </div>
-        <Flow data={data} className="flow-wrapper" />
-        <EditableLabel />
-        <CustomNode/>
-      </GGEditor>
-    </div>
+      <div className="w-96 border-l">
+        <NodePanel />
+      </div>
+    </GGEditor>
   );
 }
 

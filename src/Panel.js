@@ -3,11 +3,7 @@ import { Item, ItemPanel } from 'gg-editor';
 
 function NodePanel() {
     return (
-        <div>
-            <div className="search-wrapper">
-                <input type="search" className="search-input" />
-                <i className="fas fa-search search-icon"></i>
-            </div>
+        <div className="p-4">
             <ItemPanel>
                 <Item
                     type='node'
