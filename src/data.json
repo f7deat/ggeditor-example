@@ -1,0 +1,112 @@
+{
+    "nodes": [
+      {
+        "id": "0",
+        "label": "Đinh Công Tuyến",
+        "x": 100,
+        "y": 50
+      },
+      {
+        "id": "1",
+        "label": "Đinh Công Tân",
+        "x": 0,
+        "y": 200
+      },
+      {
+        "id": "2",
+        "label": "Đinh Thị Phương thảo",
+        "x": 150,
+        "y": 200
+      },
+      {
+        "id": "3",
+        "label": "Đinh Công Cẩn",
+        "x": 400,
+        "y": -100
+      },
+      {
+        "id": "4",
+        "label": "Đinh Công Dũng",
+        "x": 400,
+        "y": 50
+      },
+      {
+        "id": "5",
+        "label": "Đinh Công Tùng",
+        "x": 350,
+        "y": 200
+      },
+      {
+        "id": "6",
+        "label": "Đinh Thị Thu Thúy",
+        "x": 500,
+        "y": 200
+      },
+      {
+        "id": "7",
+        "label": "Đinh Thị Ngọc",
+        "x": 850,
+        "y": 50
+      },
+      {
+        "id": "8",
+        "label": "Nguyễn Văn Chiến",
+        "x": 700,
+        "y": 200
+      },
+      {
+        "id": "9",
+        "label": "Nguyễn Thị Trang",
+        "x": 850,
+        "y": 200
+      },
+      {
+        "id": "10",
+        "label": "Nguyễn Khánh Linh",
+        "x": 1000,
+        "y": 200
+      }
+    ],
+    "edges": [
+      {
+        "source": "0",
+        "target": "1"
+      },
+      {
+        "source": "0",
+        "target": "2"
+      },
+      {
+        "source": "3",
+        "target": "0"
+      },
+      {
+        "source": "3",
+        "target": "4"
+      },
+      {
+        "source": "4",
+        "target": "5"
+      },
+      {
+        "source": "4",
+        "target": "6"
+      },
+      {
+        "source": "3",
+        "target": "7"
+      },
+      {
+        "source": "7",
+        "target": "8"
+      },
+      {
+        "source": "7",
+        "target": "9"
+      },
+      {
+        "source": "7",
+        "target": "10"
+      }
+    ]
+  }
